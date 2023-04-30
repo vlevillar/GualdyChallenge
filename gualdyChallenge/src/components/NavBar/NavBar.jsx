@@ -38,7 +38,7 @@ const Navbar = () => {
     <Section>
       <Container>
         <Links>
-          <Logo src="./icon.svg" />
+          <Logo src="/icon.svg" />
           <ListItem>Films</ListItem>
           <ListItem>Characters</ListItem>
         </Links>

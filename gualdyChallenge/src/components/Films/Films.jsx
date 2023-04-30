@@ -13,7 +13,7 @@ function Films() {
 
   return (
     <>
-    <div className={style.cardContainer}>
+      {/* <div className={style.cardContainer}>
         <div className={style.card}>
           <div className={style.circle}></div>
           <div className={style.content}>
@@ -42,13 +42,13 @@ function Films() {
           </div>
           <img src="./img/ep1.jpg" alt="image not found" className={style.img} />
         </div>
-    </div>
+    </div> */}
       {loading && <p>Loading...</p>}
       {error && <p>{error}</p>}
       <ul>
         {films.map((film) => (
           <li key={film.title}>
-            Title: {film.title} Episode: {film.episode} Director:{" "}
+            Title: {film.title} Episode: {film.episode} Director:
             {film.director}
           </li>
         ))}
