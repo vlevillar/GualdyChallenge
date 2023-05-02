@@ -52,7 +52,7 @@ const Right = styled.div`
 `;
 
 const Button = styled.button`
-  background-color: #7ba6f7;
+  background-color: #4c4858ed;
   color: white;
   font-weight: 500;
   width: 100px;
@@ -87,7 +87,7 @@ const Home = styled.img`
 `;
 
 const Subtitle = styled.h2`
-  color: #7ba6f7;
+  color: #5d586bec;
 `;
 
 const Desc = styled.p`

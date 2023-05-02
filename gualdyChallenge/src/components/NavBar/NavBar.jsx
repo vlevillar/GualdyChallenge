@@ -5,6 +5,8 @@ const Section = styled.div`
   display: flex;
   justify-content: center;
   padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: #302e38ee;
 `;
 
 const Container = styled.div`
@@ -40,7 +42,6 @@ const Navbar = () => {
         <Links>
           <Logo src="/icon.svg" />
           <ListItem>Films</ListItem>
-          <ListItem>Characters</ListItem>
         </Links>
       </Container>
     </Section>

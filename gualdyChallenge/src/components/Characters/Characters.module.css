@@ -49,9 +49,14 @@
   padding: 30px;
 }
 
-.characterContainer {
-  display: inline-block;
-  max-width: 300px;
-  margin: 2%;
-  padding: 1%;
+.characterContainer{
+  width: 100%;
+  height: 300px;
 }
+
+.characters {
+  display: inline-block;
+  text-align: center;
+  padding: 2%;
+}
+
